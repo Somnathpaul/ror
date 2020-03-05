@@ -9,4 +9,9 @@ class PagesController < ApplicationController
     def about
         
     end
+
+    # help page method
+    def help
+        
+    end
 end

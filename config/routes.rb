@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   # home roure
-  get 'pages/home', to: 'pages#home'
+  root 'pages#home'
   # about page
-  get 'pages/about', to: 'pages#about'
+  get 'about', to: 'pages#about'
+  # help page
+  get 'help', to: 'pages#help'
 end
